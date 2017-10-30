@@ -17,7 +17,7 @@ def first_challenge
 
   #your code here
   contacts.map do |name, data|
-    if :name == "Freddy Mercury"
+    if name == "Freddy Mercury"
       data.map do |key, value|
         if key == :favorite_icecream_flavors
           # binding.pry
