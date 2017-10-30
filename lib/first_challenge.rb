@@ -20,9 +20,9 @@ def first_challenge
     if :name == "Freddy Mercury"
       data.map do |key, value|
         if key == :favorite_icecream_flavors
-          binding.pry
+          # binding.pry
           value.delete_if {|val| val == "strawberry" }
-          binding.pry
+          # binding.pry
         end
       end
     end
