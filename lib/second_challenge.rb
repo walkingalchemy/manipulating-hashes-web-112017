@@ -8,9 +8,7 @@ def second_challenge
 
   #code your solution here!
   new = []
-  groceries.each do |type, list|
-    new << list.values
-  end
+  groceries.values.each {|val| new << val}
   new
 
 
