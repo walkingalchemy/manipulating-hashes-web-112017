@@ -9,7 +9,7 @@ def second_challenge
 
   #code your solution here!
   new = []
-  groceries.values
+  stuff = groceries.values
   binding.pry
 
 
