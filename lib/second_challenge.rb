@@ -9,9 +9,7 @@ def second_challenge
 
   #code your solution here!
   new = []
-  stuff = groceries.values
-  binding.pry
+  groceries.values.each {|list| list.each {|val| new << val}}
 
 
 end
-second_challenge
