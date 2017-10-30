@@ -20,9 +20,7 @@ def first_challenge
     if name == "Freddy Mercury"
       data.map do |key, value|
         if key == :favorite_icecream_flavors
-          # binding.pry
           value.delete_if {|val| val == "strawberry" }
-          # binding.pry
         end
       end
     end
@@ -31,4 +29,3 @@ def first_challenge
   #remember to return your newly altered contacts hash!
   contacts
 end
- first_challenge
