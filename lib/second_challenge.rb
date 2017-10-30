@@ -8,8 +8,7 @@ def second_challenge
 
   #code your solution here!
   new = []
-  groceries.values.each {|val| new << val}
-  new
+  groceries.values.map {|val| new << val}
 
 
 end
